@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TelnetServerApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="100" Width="100">
+    <StackPanel>
+        <TextBlock>telnet</TextBlock>
+        <Button Command="{Binding Start}">Start</Button>
+        <Button Command="{Binding Stop}">Stop</Button>
+    </StackPanel>
 </Window>
