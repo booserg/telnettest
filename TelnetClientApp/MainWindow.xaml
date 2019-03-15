@@ -4,8 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TelnetClientApp"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        xmlns:views="clr-namespace:TelnetClientApp.Views"
+        Title="MainWindow" Height="185" Width="235">
+    <StackPanel>
+        <GroupBox Header="Connection" Margin="0,10,0,0">
+            <views:ConnectionView DataContext="{Binding ConnectionViewModel}"></views:ConnectionView>
+        </GroupBox>
+        <GroupBox Header="Value">
+            <views:ValueView DataContext="{Binding ValueViewModel}"></views:ValueView>
+        </GroupBox>
+    </StackPanel>
 </Window>

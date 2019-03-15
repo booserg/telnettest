@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelnetServerApp", "TelnetSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelnetClientApp", "TelnetClientApp\TelnetClientApp.csproj", "{6C6409DF-6A6E-4C68-A6E3-C9199D888D98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A8D76597-FA5E-4F3B-82F8-2700D2CF1960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6C6409DF-6A6E-4C68-A6E3-C9199D888D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C6409DF-6A6E-4C68-A6E3-C9199D888D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C6409DF-6A6E-4C68-A6E3-C9199D888D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D76597-FA5E-4F3B-82F8-2700D2CF1960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D76597-FA5E-4F3B-82F8-2700D2CF1960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D76597-FA5E-4F3B-82F8-2700D2CF1960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D76597-FA5E-4F3B-82F8-2700D2CF1960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

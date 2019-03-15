@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -14,24 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TelnetServerApp.StartUp;
-using TelnetServerApp.ViewModels;
 
-namespace TelnetServerApp
+namespace TelnetServerApp.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ConnectionView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ConnectionView : UserControl
     {
-
-        public MainWindow()
+        public ConnectionView()
         {
             InitializeComponent();
-
-            Bootstrapper creator = new Bootstrapper();
-            creator.Constract();
-            DataContext = creator.MainViewModel;
         }
     }
 }
