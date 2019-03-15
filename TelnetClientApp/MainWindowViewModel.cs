@@ -1,5 +1,4 @@
-﻿using Common;
-using Common.Interfaces;
+﻿using Common.Interfaces;
 using TelnetClientApp.Models;
 using TelnetClientApp.ViewModels;
 

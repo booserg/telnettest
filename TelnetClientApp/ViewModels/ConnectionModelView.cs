@@ -1,12 +1,6 @@
-﻿using Common;
-using Common.Interfaces;
-using Prism.Commands;
+﻿using Prism.Commands;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TelnetClientApp.Models;
 
 namespace TelnetClientApp.ViewModels
